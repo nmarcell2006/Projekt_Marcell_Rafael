@@ -41,4 +41,9 @@ router.get('/testsql', async (request, response) => {
     }
 });
 
+
+//Top level code
+const array = []
+
+
 module.exports = router;

@@ -1,0 +1,32 @@
+table{
+    margin-bottom: 50px;
+}
+
+.card{
+    display: block;
+    height: 500px;
+    cursor: pointer;
+}
+
+.card-title{
+    font-size: xx-large;
+    text-align: center;
+}
+
+#elso{
+    background-image: url(../akasztofa.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#masodik{
+    background-image: url(../szavak.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-fluid{
+
+}
+
