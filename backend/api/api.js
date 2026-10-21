@@ -43,7 +43,8 @@ router.get('/testsql', async (request, response) => {
 
 
 //Top level code
-const array = []
+const szavak = ['agitáció', 'radar', 'hűtő', 'Nimród', 'hasonszőrű']
+const betuk = [...'aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz']
 
 
 module.exports = router;
