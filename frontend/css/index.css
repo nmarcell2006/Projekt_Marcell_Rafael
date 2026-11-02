@@ -32,9 +32,24 @@ table{
 
 
 .keret{
-    margin: 500px;
+    margin-left: 500px;
+    margin-right: 500px;
+
 }
 
+
+#ujJatek{
+
+    margin-top: 18px;
+    padding: 10px 22px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(70, 102, 129);
+    color: white;
+    cursor: pointer;
+}
 
 
 

@@ -6,6 +6,7 @@ const fs = require('fs/promises');
 //!Multer
 const multer = require('multer'); //?npm install multer
 const path = require('path');
+const { request } = require('http');
 
 const storage = multer.diskStorage({
     destination: (request, file, callback) => {
@@ -46,5 +47,12 @@ router.get('/testsql', async (request, response) => {
 const szavak = ['agitáció', 'radar', 'hűtő', 'Nimród', 'hasonszőrű']
 const betuk = [...'aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz']
 
+router.get('/szavak', (request, response) => {
+    response.status(200).json(szavak)
+})
+
+router.get('/betuk', (request, response1) => {
+    response1.status(200).json(betuk)
+})
 
 module.exports = router;
